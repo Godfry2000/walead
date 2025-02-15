@@ -1,0 +1,21 @@
+🚀 Plan d'amélioration pour la plateforme New Lead
+✅ 1. Personnalisation du design du Dashboard 🎨
+
+Intégration d'un design moderne avec HTML, CSS et Bootstrap
+Amélioration de l'affichage des informations utilisateur avec cartes et icônes
+Ajout d'un menu latéral pour faciliter la navigation
+✅ 2. Ajout d'une section "Mes contacts" 📋
+
+Affichage des autres utilisateurs enregistrés sur la plateforme
+Option pour ajouter/supprimer un contact
+Affichage des profils des utilisateurs (nom, pseudo, numéro WhatsApp)
+✅ 3. Notifications et chat entre utilisateurs 💬
+
+Ajout d'un système de notifications (nouveau contact, message reçu, etc.)
+Création d'un chat en temps réel avec WebSockets ou AJAX
+Interface de messagerie simple et rapide
+✅ 4. Sécurisation des mots de passe 🔒
+
+Utilisation de password_hash() pour stocker les mots de passe en base de données
+Vérification avec password_verify() lors de la connexion
+Ajout d'une protection contre les injections SQL et XSS

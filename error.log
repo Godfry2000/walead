@@ -1,0 +1,157 @@
+[Fri Feb 07 21:17:51.883126 2025] [ssl:warn] [pid 8608:tid 340] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 21:17:52.609297 2025] [ssl:warn] [pid 8608:tid 340] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 21:17:55.839226 2025] [mpm_winnt:notice] [pid 8608:tid 340] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Fri Feb 07 21:17:55.839697 2025] [mpm_winnt:notice] [pid 8608:tid 340] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri Feb 07 21:17:55.839697 2025] [core:notice] [pid 8608:tid 340] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Feb 07 21:17:55.864225 2025] [mpm_winnt:notice] [pid 8608:tid 340] AH00418: Parent: Created child process 10960
+[Fri Feb 07 21:18:09.220410 2025] [ssl:warn] [pid 10960:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 21:18:09.594359 2025] [ssl:warn] [pid 10960:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 21:18:10.163966 2025] [mpm_winnt:notice] [pid 10960:tid 436] AH00354: Child: Starting 150 worker threads.
+[Fri Feb 07 21:22:45.629839 2025] [mpm_winnt:crit] [pid 10960:tid 436] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 08 16:58:47.954986 2025] [ssl:warn] [pid 6944:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 16:58:49.219938 2025] [ssl:warn] [pid 6944:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 16:59:05.483910 2025] [mpm_winnt:notice] [pid 6944:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Feb 08 16:59:05.483910 2025] [mpm_winnt:notice] [pid 6944:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Feb 08 16:59:05.483910 2025] [core:notice] [pid 6944:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Feb 08 16:59:05.647895 2025] [mpm_winnt:notice] [pid 6944:tid 424] AH00418: Parent: Created child process 6868
+[Sat Feb 08 16:59:10.313496 2025] [ssl:warn] [pid 6868:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 16:59:10.675466 2025] [ssl:warn] [pid 6868:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 16:59:11.677380 2025] [mpm_winnt:notice] [pid 6868:tid 428] AH00354: Child: Starting 150 worker threads.
+[Sat Feb 08 18:09:05.313256 2025] [php:error] [pid 6868:tid 1868] [client ::1:50790] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\phpMyAdmin\\vendor\\composer\\autoload_real.php on line 60
+[Sat Feb 08 18:32:38.610526 2025] [php:error] [pid 6868:tid 1868] [client ::1:50862] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\phpMyAdmin\\vendor\\composer\\autoload_real.php on line 60
+[Sat Feb 08 18:35:15.386962 2025] [php:error] [pid 6868:tid 1868] [client ::1:50870] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\phpMyAdmin\\vendor\\composer\\autoload_real.php on line 60
+[Sat Feb 08 18:38:41.063058 2025] [php:error] [pid 6868:tid 1860] [client ::1:50879] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\phpMyAdmin\\vendor\\psr\\http-message\\src\\RequestInterface.php on line 24
+[Sun Feb 09 23:39:38.593396 2025] [ssl:warn] [pid 2824:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 23:40:07.662551 2025] [core:warn] [pid 2824:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 09 23:40:07.931535 2025] [ssl:warn] [pid 2824:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 23:41:11.488398 2025] [mpm_winnt:notice] [pid 2824:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Feb 09 23:41:11.488398 2025] [mpm_winnt:notice] [pid 2824:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Feb 09 23:41:11.488398 2025] [core:notice] [pid 2824:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Feb 09 23:41:11.955369 2025] [mpm_winnt:notice] [pid 2824:tid 424] AH00418: Parent: Created child process 9300
+[Sun Feb 09 23:41:30.954954 2025] [ssl:warn] [pid 9300:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 23:41:39.721606 2025] [ssl:warn] [pid 9300:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 23:41:43.093537 2025] [mpm_winnt:notice] [pid 9300:tid 428] AH00354: Child: Starting 150 worker threads.
+[Sun Feb 09 23:43:48.408096 2025] [php:error] [pid 9300:tid 1856] [client ::1:49832] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\phpMyAdmin\\vendor\\composer\\autoload_real.php on line 60
+[Mon Feb 10 16:52:59.167213 2025] [ssl:warn] [pid 1540:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 16:52:59.499192 2025] [core:warn] [pid 1540:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 10 16:52:59.530192 2025] [ssl:warn] [pid 1540:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 16:53:03.294049 2025] [mpm_winnt:notice] [pid 1540:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Feb 10 16:53:03.294049 2025] [mpm_winnt:notice] [pid 1540:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Feb 10 16:53:03.294049 2025] [core:notice] [pid 1540:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Feb 10 16:53:03.324049 2025] [mpm_winnt:notice] [pid 1540:tid 424] AH00418: Parent: Created child process 584
+[Mon Feb 10 16:53:08.118260 2025] [ssl:warn] [pid 584:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 16:53:08.504236 2025] [ssl:warn] [pid 584:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 16:53:08.756219 2025] [mpm_winnt:notice] [pid 584:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Feb 10 16:57:55.833656 2025] [php:warn] [pid 584:tid 1864] [client ::1:49921] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\new_lead\\index.php on line 8
+[Mon Feb 10 16:57:55.834657 2025] [php:warn] [pid 584:tid 1864] [client ::1:49921] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\new_lead\\index.php on line 8
+[Mon Feb 10 17:05:33.668379 2025] [php:warn] [pid 584:tid 1868] [client ::1:50089] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\new_lead\\index.php on line 13
+[Mon Feb 10 17:05:33.669380 2025] [php:warn] [pid 584:tid 1868] [client ::1:50089] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\new_lead\\index.php on line 13
+[Tue Feb 11 10:23:09.067677 2025] [php:error] [pid 584:tid 1852] [client ::1:50644] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\phpMyAdmin\\vendor\\twig\\twig\\src\\Extension\\StagingExtension.php on line 27
+[Tue Feb 11 13:22:57.235476 2025] [ssl:warn] [pid 2680:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 13:22:57.670443 2025] [core:warn] [pid 2680:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 11 13:22:57.686438 2025] [ssl:warn] [pid 2680:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 13:23:04.337894 2025] [mpm_winnt:notice] [pid 2680:tid 428] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Feb 11 13:23:04.337894 2025] [mpm_winnt:notice] [pid 2680:tid 428] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Feb 11 13:23:04.337894 2025] [core:notice] [pid 2680:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Feb 11 13:23:04.480883 2025] [mpm_winnt:notice] [pid 2680:tid 428] AH00418: Parent: Created child process 2820
+[Tue Feb 11 13:23:06.725381 2025] [ssl:warn] [pid 2820:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 13:23:07.054409 2025] [ssl:warn] [pid 2820:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 13:23:07.397379 2025] [mpm_winnt:notice] [pid 2820:tid 428] AH00354: Child: Starting 150 worker threads.
+[Tue Feb 11 17:14:19.207363 2025] [php:error] [pid 2820:tid 1868] [client ::1:50945] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\phpMyAdmin\\vendor\\composer\\ClassLoader.php on line 430
+[Tue Feb 11 17:26:57.296207 2025] [php:error] [pid 2820:tid 1856] [client ::1:51118] script 'C:/xampp/htdocs/walead/register.php' not found or unable to stat
+[Tue Feb 11 17:52:39.388841 2025] [php:error] [pid 2820:tid 1856] [client ::1:51408] script 'C:/xampp/htdocs/walead/index.php' not found or unable to stat
+[Tue Feb 11 18:02:40.413952 2025] [php:error] [pid 2820:tid 1856] [client ::1:51483] script 'C:/xampp/htdocs/walead/register.php' not found or unable to stat
+[Tue Feb 11 18:03:17.775765 2025] [php:warn] [pid 2820:tid 1860] [client ::1:51482] PHP Warning:  require_once(../config.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\walead\\php\\register.php on line 2
+[Tue Feb 11 18:03:17.819762 2025] [php:error] [pid 2820:tid 1860] [client ::1:51482] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\walead\\php\\register.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\walead\\php\\register.php on line 2
+[Tue Feb 11 18:03:31.124632 2025] [php:error] [pid 2820:tid 1856] [client ::1:51489] script 'C:/xampp/htdocs/walead/egister.php' not found or unable to stat
+[Tue Feb 11 18:03:35.829228 2025] [php:error] [pid 2820:tid 1856] [client ::1:51489] script 'C:/xampp/htdocs/walead/register.php' not found or unable to stat
+[Tue Feb 11 19:50:34.103993 2025] [php:warn] [pid 2820:tid 1860] [client ::1:65134] PHP Warning:  require_once(../config.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\walead\\auth\\register.php on line 2
+[Tue Feb 11 19:50:34.104992 2025] [php:error] [pid 2820:tid 1860] [client ::1:65134] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\walead\\auth\\register.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\walead\\auth\\register.php on line 2
+[Tue Feb 11 19:55:00.505970 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65193] PHP Warning:  require_once(../config.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\walead\\auth\\register.php on line 2
+[Tue Feb 11 19:55:00.505970 2025] [php:error] [pid 2820:tid 1848] [client ::1:65193] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\walead\\auth\\register.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\walead\\auth\\register.php on line 2
+[Tue Feb 11 19:55:01.448419 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65193] PHP Warning:  require_once(../config.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\walead\\auth\\register.php on line 2
+[Tue Feb 11 19:55:01.449416 2025] [php:error] [pid 2820:tid 1848] [client ::1:65193] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\walead\\auth\\register.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\walead\\auth\\register.php on line 2
+[Tue Feb 11 19:55:02.087957 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65193] PHP Warning:  require_once(../config.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\walead\\auth\\register.php on line 2
+[Tue Feb 11 19:55:02.088957 2025] [php:error] [pid 2820:tid 1848] [client ::1:65193] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\walead\\auth\\register.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\walead\\auth\\register.php on line 2
+[Tue Feb 11 19:58:57.672654 2025] [php:notice] [pid 2820:tid 1848] [client ::1:65214] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Tue Feb 11 19:58:57.673655 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Tue Feb 11 19:58:57.674657 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Tue Feb 11 19:58:57.675657 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Tue Feb 11 19:58:57.676654 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Tue Feb 11 19:58:58.548581 2025] [php:notice] [pid 2820:tid 1848] [client ::1:65214] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Tue Feb 11 19:58:58.550580 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Tue Feb 11 19:58:58.553580 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Tue Feb 11 19:58:58.553580 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Tue Feb 11 19:58:58.554581 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Tue Feb 11 19:58:59.394508 2025] [php:notice] [pid 2820:tid 1848] [client ::1:65214] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Tue Feb 11 19:58:59.395510 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Tue Feb 11 19:58:59.395510 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Tue Feb 11 19:58:59.396509 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Tue Feb 11 19:58:59.397515 2025] [php:warn] [pid 2820:tid 1848] [client ::1:65214] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Wed Feb 12 11:09:44.603251 2025] [ssl:warn] [pid 7316:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 11:09:47.981962 2025] [core:warn] [pid 7316:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 12 11:09:47.994961 2025] [ssl:warn] [pid 7316:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 11:09:54.172856 2025] [mpm_winnt:notice] [pid 7316:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Feb 12 11:09:54.172856 2025] [mpm_winnt:notice] [pid 7316:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Feb 12 11:09:54.172856 2025] [core:notice] [pid 7316:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Feb 12 11:09:54.230854 2025] [mpm_winnt:notice] [pid 7316:tid 424] AH00418: Parent: Created child process 12084
+[Wed Feb 12 11:09:56.793633 2025] [ssl:warn] [pid 12084:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 11:09:57.067610 2025] [ssl:warn] [pid 12084:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 11:09:57.407583 2025] [mpm_winnt:notice] [pid 12084:tid 428] AH00354: Child: Starting 150 worker threads.
+[Wed Feb 12 15:46:07.687623 2025] [ssl:warn] [pid 9940:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 15:46:08.348567 2025] [core:warn] [pid 9940:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 12 15:46:08.359567 2025] [ssl:warn] [pid 9940:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 15:46:16.291891 2025] [mpm_winnt:notice] [pid 9940:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Feb 12 15:46:16.291891 2025] [mpm_winnt:notice] [pid 9940:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Feb 12 15:46:16.291891 2025] [core:notice] [pid 9940:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Feb 12 15:46:16.409882 2025] [mpm_winnt:notice] [pid 9940:tid 424] AH00418: Parent: Created child process 9768
+[Wed Feb 12 15:46:18.459705 2025] [ssl:warn] [pid 9768:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 15:46:18.653690 2025] [ssl:warn] [pid 9768:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 15:46:18.895666 2025] [mpm_winnt:notice] [pid 9768:tid 440] AH00354: Child: Starting 150 worker threads.
+[Wed Feb 12 16:01:38.755816 2025] [php:notice] [pid 9768:tid 1844] [client ::1:52540] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Wed Feb 12 16:01:38.796816 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52540] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Wed Feb 12 16:01:38.796816 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52540] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Wed Feb 12 16:01:38.797815 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52540] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Wed Feb 12 16:01:38.798815 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52540] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Wed Feb 12 16:04:34.912254 2025] [php:notice] [pid 9768:tid 1844] [client ::1:52576] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Wed Feb 12 16:04:34.913253 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Wed Feb 12 16:04:34.914252 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Wed Feb 12 16:04:34.914252 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Wed Feb 12 16:04:34.915251 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Wed Feb 12 16:04:38.322965 2025] [php:notice] [pid 9768:tid 1844] [client ::1:52576] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Wed Feb 12 16:04:38.323967 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Wed Feb 12 16:04:38.325968 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Wed Feb 12 16:04:38.327964 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Wed Feb 12 16:04:38.328963 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Wed Feb 12 16:04:39.920828 2025] [php:notice] [pid 9768:tid 1844] [client ::1:52576] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Wed Feb 12 16:04:39.921829 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Wed Feb 12 16:04:39.922829 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Wed Feb 12 16:04:39.923829 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Wed Feb 12 16:04:39.924828 2025] [php:warn] [pid 9768:tid 1844] [client ::1:52576] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Wed Feb 12 16:05:04.778708 2025] [php:notice] [pid 9768:tid 1860] [client ::1:52593] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Wed Feb 12 16:05:04.798707 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52593] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Wed Feb 12 16:05:04.799711 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52593] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Wed Feb 12 16:05:04.803708 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52593] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Wed Feb 12 16:05:04.805709 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52593] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Wed Feb 12 16:07:48.356639 2025] [php:notice] [pid 9768:tid 1860] [client ::1:52624] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Wed Feb 12 16:07:48.356639 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52624] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Wed Feb 12 16:07:48.357638 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52624] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Wed Feb 12 16:07:48.358637 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52624] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Wed Feb 12 16:07:48.358637 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52624] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Wed Feb 12 16:12:59.514126 2025] [php:notice] [pid 9768:tid 1860] [client ::1:52689] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\config.php on line 44
+[Wed Feb 12 16:12:59.517130 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52689] PHP Warning:  Constant DB_HOST already defined in C:\\xampp\\htdocs\\walead\\config.php on line 50
+[Wed Feb 12 16:12:59.518128 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52689] PHP Warning:  Constant DB_NAME already defined in C:\\xampp\\htdocs\\walead\\config.php on line 51
+[Wed Feb 12 16:12:59.520127 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52689] PHP Warning:  Constant DB_USER already defined in C:\\xampp\\htdocs\\walead\\config.php on line 52
+[Wed Feb 12 16:12:59.520127 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52689] PHP Warning:  Constant DB_PASS already defined in C:\\xampp\\htdocs\\walead\\config.php on line 53
+[Wed Feb 12 16:19:15.514409 2025] [php:error] [pid 9768:tid 1844] [client ::1:52762] script 'C:/xampp/htdocs/walead/register.php' not found or unable to stat
+[Wed Feb 12 16:21:57.458995 2025] [php:warn] [pid 9768:tid 1860] [client ::1:52786] PHP Warning:  require_once(../config.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\walead\\register.php on line 2
+[Wed Feb 12 16:21:57.508991 2025] [php:error] [pid 9768:tid 1860] [client ::1:52786] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\walead\\register.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\walead\\register.php on line 2
+[Wed Feb 12 16:28:21.165752 2025] [php:notice] [pid 9768:tid 1844] [client ::1:52852] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\register.php on line 4
+[Wed Feb 12 16:36:21.677902 2025] [php:notice] [pid 9768:tid 1844] [client ::1:52998] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\xampp\\htdocs\\walead\\register.php on line 11
+[Wed Feb 12 16:39:11.237229 2025] [php:error] [pid 9768:tid 1844] [client ::1:53030] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\xampp\\htdocs\\walead\\register.php on line 2
+[Wed Feb 12 16:39:26.179883 2025] [php:error] [pid 9768:tid 1860] [client ::1:53038] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\xampp\\htdocs\\walead\\register.php on line 2
+[Wed Feb 12 16:39:26.901822 2025] [php:error] [pid 9768:tid 1860] [client ::1:53038] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\xampp\\htdocs\\walead\\register.php on line 2
+[Wed Feb 12 16:39:27.306787 2025] [php:error] [pid 9768:tid 1860] [client ::1:53038] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\xampp\\htdocs\\walead\\register.php on line 2
+[Wed Feb 12 16:39:27.662757 2025] [php:error] [pid 9768:tid 1860] [client ::1:53038] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\xampp\\htdocs\\walead\\register.php on line 2
+[Wed Feb 12 16:39:27.889739 2025] [php:error] [pid 9768:tid 1860] [client ::1:53038] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\xampp\\htdocs\\walead\\register.php on line 2
+[Wed Feb 12 16:39:28.162715 2025] [php:error] [pid 9768:tid 1860] [client ::1:53038] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\xampp\\htdocs\\walead\\register.php on line 2
